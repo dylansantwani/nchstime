@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="dark " lang="en">
+<html class="dark" lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -23,7 +23,6 @@
                 },
             }
         }
-
     </script>
     <style>
         body {
@@ -51,39 +50,38 @@
 <body class="bg-gray-900">
 
     <article 
-        class="scale-150 hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s] dark:shadow-gray-700/25">
+        class="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s] dark:shadow-gray-700/25 max-w-lg w-full">
         <div class="rounded-[10px] bg-white p-5 !pt-20 sm:p-6 dark:bg-gray-900">
             <time datetime="2022-10-10" class="block text-xs text-gray-500 dark:text-gray-400">
                 Schedule Tracker
             </time>
 
             <a href="#">
-                <h3 id="current-period" class="mt-0.5 text-lg font-medium text-gray-900 dark:text-white">
+                <h3 id="current-period" class="mt-0.5 text-xl sm:text-2xl font-medium text-gray-900 dark:text-white">
                     Loading....
                 </h3>
-                <h3 id="time-left" class="mt-0.5 text-lg font-medium text-gray-900 dark:text-white">
+                <h3 id="time-left" class="mt-0.5 text-xl sm:text-2xl font-medium text-gray-900 dark:text-white">
                     Loading....
                 </h3>
             </a>
             <time datetime="2022-10-10" class="block text-xs text-gray-500 dark:text-gray-400">
                 Created by Dylan Santwani
             </time>
-            <div class="mt-4 flex flex-wrap gap-1 cursor-pointer">
+            <div class="mt-4 flex flex-wrap gap-1 cursor-pointer justify-center">
                 <span
-                onclick="window.location.href='https://dylansantwani.com'"
-                    class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600 dark:bg-purple-600 dark:text-purple-100">
+                    onclick="window.location.href='https://dylansantwani.com'"
+                    class="whitespace-nowrap rounded-full bg-purple-100 px-4 py-1 text-xs sm:text-sm text-purple-600 dark:bg-purple-600 dark:text-purple-100">
                     Other Projects
                 </span>
 
                 <span
                     onclick="window.location.href='custom'"
-                    class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600 dark:bg-purple-600 dark:text-purple-100 cursor-pointer">
+                    class="whitespace-nowrap rounded-full bg-purple-100 px-4 py-1 text-xs sm:text-sm text-purple-600 dark:bg-purple-600 dark:text-purple-100 cursor-pointer">
                     Use with your own schedule
                 </span>
             </div>
         </div>
     </article>
-
 
     <script>
         function toSeconds(h, m, s) {
