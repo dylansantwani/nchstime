@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schedule Tracker</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="easyRender.js"></script>
     <script>
         tailwind.config = {
             darkMode: 'class',
@@ -75,7 +76,7 @@
                 </span>
 
                 <span
-                    onclick="window.location.href='custom'"
+                    onclick="renderPage('custom')"
                     class="whitespace-nowrap rounded-full bg-purple-100 px-4 py-1 text-xs sm:text-sm text-purple-600 dark:bg-purple-600 dark:text-purple-100 cursor-pointer">
                     Use with your own schedule
                 </span>
